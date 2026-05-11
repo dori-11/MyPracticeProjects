@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ImageViewer
+namespace New_Calculator
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace ImageViewer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new label1());
+            Application.Run(new Calculator());
         }
     }
 }
